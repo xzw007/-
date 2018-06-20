@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./jquery-1.8.2.min.js"></script>
+    <script>
+    $(function(){
+        $('#btn').on('click',function(){
+            $.ajax({
+                type: "get",
+                url: "http://v.juhe.cn/historyWeather/province",
+                data: {
+                    key:"a27cbc7af3105e13c37b79c5f2af4a95"
+                },
+                dataType: "jonsp",
+                success: function (response) {
+                    console.log(response);
+
+                }
+            });
+        })
+    })
+    </script>
+</head>
+<body>
+    <input type="button" value="点击" id="btn">
+</body>
+</html>

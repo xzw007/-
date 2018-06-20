@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./jquery-1.8.2.min.js"></script>
+    <script>
+        $(function(){
+            $('#btn').on('click',function(){
+                $.ajax({
+                    type: "get",
+                    url: "http://v.juhe.cn/offset/index",
+                   jsonp: "callback",
+                   jsonpCallback:"test",
+                 
+                 data: {
+                 lng:116,
+                lat:39,
+                type:1,
+                key:"d53a2526341d4006f8085e479beb11e2"
+                    },
+                    dataType: "jsonp",
+                    success: function (response) {
+                        // console.log(response);
+                       test(response);
+                       
+                    }
+                });
+            });
+
+function test(data){
+// console.log(data);
+   console.log(data.reason)
+// console.log(aa.reason);\
+
+
+}
+
+
+
+        })
+        // url:"http://api.map.baidu.com/telematics/v3/weather",
+        //     data:{
+        //         "ak":"zVo5SStav7IUiVON0kuCogecm87lonOj",
+        //         "location":"北京",
+        //         "output":'json'
+        //     },
+
+    </script>
+</head>
+<body>
+    <input type="button" value="点击" id="btn">
+</body>
+</html>
