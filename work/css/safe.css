@@ -1,0 +1,96 @@
+.layout {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    height: 500px;
+    background-color: rgb(238,238,238);
+    padding-top: 60px;
+}
+.s_top {
+    width: 100%;
+    height: 40px;
+    max-width: 640px;
+    position: fixed;
+    top: 0%;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.s_top a {
+    display: block;
+    position: absolute;
+    left: 2px;
+}
+.s_top a p {
+    color: black;
+    float: right;
+    font-size: 18px;
+}
+.s_top i {
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    font-weight: bold;
+}
+.s_banner {
+    width: 100%;
+}
+.s_banner ul {
+    width: 100%;
+}
+.s_banner li {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    border-bottom: 1px solid #666;
+}
+.s_banner li input{
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 86px;
+    border: 0;
+ 
+}
+input::-webkit-input-placeholder{  color:rgb(138, 132, 132); font-size:14px; }
+input:-moz-placeholder{  color:rgb(138, 132, 132); font-size:14px;}
+input::-moz-placeholder{  color:rgb(138, 132, 132);font-size:14px; }
+input:-ms-input-placeholder{  color:rgb(138, 132, 132); font-size:14px; }
+
+.s_banner li p {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    left: 28px;
+    top: 14px;
+}
+.s_banner ul .s_sb {
+    width: 98px;
+    height: 48px;
+    position: absolute;
+    border: 0;
+    background-color: #fff;
+    right: 0px;
+    top: 1px;
+    font-size: 14px;
+    padding-left: 0;
+    border-bottom: 0;
+}
+.s_banner ul .s_copy {
+    padding-left: 102px;
+}
+.s_sure {
+    display: block;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    background-color: rgb(255,207,20);
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 8px;
+    color: white;
+}

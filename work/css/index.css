@@ -1,0 +1,207 @@
+.layout {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    background-color: rgb(177, 169, 169);
+}
+
+.c_top {
+    height: 40px;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    position: fixed;
+    background-color: #FF0000;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 6px;
+    line-height: 40px;
+    top: 0%;
+}
+
+.c_back {
+    position: absolute;
+    color: white;
+    line-height: 40px;
+    left: 10px;
+    top: -2px;
+}
+
+.c_back i {
+    font-size: 24px;
+    font-weight: bold;
+}
+.c_banner {
+    margin-top: 40px;
+    position: relative;
+}
+.c_1 {
+    width: 100%;
+    display: block;
+}
+.c_banner a img {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+}
+.c_banner>p {
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    top: 30px;
+    left: 110px;
+}
+.c_2 img{
+    width: 77.5px;
+    height: 77.5px;
+    display: block;
+    top: 20px;
+    left: 20px;
+    
+}
+.c_3 img{
+    width: 15px;
+    height: 15px;
+    display: block;
+    top: 75px;
+    left: 150px;
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+.c_4 img{
+    width: 15px;
+    height: 15px;
+    display: block;
+    top: 75px;
+    left: 130px;
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+.c_5 img{
+    width: 15px;
+    height: 15px;
+    display: block;
+    top: 75px;
+    left: 110px;
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+.c_rback {
+    position: absolute;
+    right: 20px;
+    top: 42px;
+}
+.c_rback i {   
+     font-weight: bold;
+    font-size: 24px;
+}
+.c_add {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.2);
+}
+.c_add ul {
+    width: 100%;
+    height: 100%;
+}
+.c_add li {
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.c_add li p {
+    margin-top: 4px;
+    color: white;
+
+}
+.c_add ul span {
+    display: block;
+    width: 1px;
+    height: 36px;
+    background-color: #fff;
+    position: absolute;
+    left: 106px;
+    bottom: 7px;
+}
+.c_add ul div {
+    display: block;
+    width: 0.5px;
+    height: 36px;
+    background-color: #fff;
+    position: absolute;
+    left: 213px;
+    bottom: 7px;
+}
+.c_nav {
+    width: 100%;
+    height: 225px;
+    background-color: white;
+    /* margin-bottom: 20px; */
+    
+}
+.c_nav ul {
+    width: 100%;
+    background-color: white;
+}
+.c_nav li {
+    float: left;
+    width: 33.33%;
+    height: 75px;
+    text-align: center;
+    padding: 10px 0 ;
+    background-color: white;
+    /* border: 1px solid black */
+}
+.c_nav li img {
+    width: 35px;
+    height: 35px;
+    /* display: block; */
+}
+.c_nav li p {
+    color: #333;
+}
+.c_nav ul li {
+    box-sizing: border-box;
+}
+.c_bottom {
+    width: 100%;
+    max-width: 640px;
+    height: 60px;
+    padding-top: 12px;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+  
+    /* z-index: 999; */
+
+    background-color: rgb(255, 255, 255);
+}
+.c_bottom ul {
+    width: 100%;
+}
+.c_bottom li {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.c_bottom li p {
+    margin-top: 4px;
+    color: rgb(151, 137, 137);
+}
+.c_bottom li i {
+    color: rgb(151, 137, 137);
+}
+.c_product {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(209, 81, 81);
+    margin-top: 20px;
+    /* margin-bottom: 80px; */
+}
